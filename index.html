@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ultima version CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- libreria JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- ultima version Javascript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+  <!--link para iconos -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
+  <!-- hoja de estilos interna -->
+  <style type="text/css">
+    .alto{
+      height: 400px;
+    }
+
+    #contenedor1{
+      background-image: url(https://i.pinimg.com/originals/2f/ab/5a/2fab5af3a3e80205c5757aea1da234c7.jpg)
+    }
+
+    #contenedor4{
+      background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-shading-pattern-banner-poster-green-vintage-pattern-image_17136.jpg) 
+    }
+    #botonInicio{
+      background-color: green;
+    }
+
+    #botonStarted{
+      background-color: gray;
+    }
+
+    #botonHome{
+      font-size:15px;
+    }
+
+    #botonAbout{
+      font-size:15px;
+    }
+
+    #botonPricing{
+      font-size: 15px;
+    }
+
+    #botonContact{
+      font-size: 15px;
+    }
+
+    #botonStarted {
+      font-size:10px;
+    }
+
+    a:link{
+      color:white;
+      text-decoration: none;
+    }
+
+    a:visited{
+      color:white;
+      text-decoration: none;
+    }
+
+    a:hover{
+      color:white;
+      text-decoration: none;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+<!-- Primer contenedor -->
+
+<div class="container-fluid bg-success" id="contenedor1">
+  <div class="container pt-2 pb-5 text-white">
+    <div class="row align-items-center">
+      <div class="col-4">
+          <div class="row align-items-center">
+            <div class="col-3"></div>
+            <div class="col-3"><font size="+2">WAPIK</font></div> 
+            <div class="col-6">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                  <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                +62 202 555 0117
+            </div>
+          </div>
+      </div>
+      <div class="col-4">
+          <div class="row">
+            <div class="col-4"></div>
+            <div class="col-3"></div>
+            <div class="col-2"><a href="#" id="botonHome">HOME</a></div> 
+            <div class="col-3"><a href="#" id="botonAbout"><b>ABOUT US</b></a></div> 
+          </div>
+      </div>
+      <div class="col-4">
+        <div class="row align-items-center">
+            <div class="col-3"><a href="#" id="botonPricing">PRICING</a></div> 
+            <div class="col-4"><a href="#" id="botonContact">CONTACT US</a></div> 
+            <div class="col-5"><a href="#" id="botonStarted" class="btn btn-primary my-2">GET STARTED</a></div>
+          </div>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <section class="jumbotron text-center">
+        <div class="container py-5 text-white">
+          <div class="row">
+              <div class="col-3"></div>
+              <div class="col-6">
+                <h1 class="jumbotron-heading">Cras justo odio, dapibus ac facilisis in egestas eget quam</h1>
+                <a href="#" id="botonInicio" class="btn btn-primary my-2">Start your free trial</a>
+              </div>
+              <div class="col-3"></div>
+          </div>
+        </div>
+      </section>
+  </div>
+</div>
+
+
+
+<!-- Segundo contenedor -->
+
+<div class="container-fluid text-info pb-5" id="contenedor2">
+
+      <div class="container pt-3">
+        <div class="row pt-5">
+          <div class="col-5"></div>
+          <div class="col-2 text-primary" style="text-align:center;"><h3>About Us<hr style="width:40%;margin-left:60px"></h3></div>
+          <div class="col-5"></div>
+        </div>
+      </div>
+      <div class="container pb-4">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6">
+            <div class="row" style="text-align:center;">
+              <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen</p>
+            </div>
+          </div>
+          <div class="col-3"></div>  
+        </div>
+      </div>
+
+
+  <div class="container pt-5">
+    <div class="row">
+
+      <div class="col-4 px-2">
+        <div class="row">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-app-indicator" viewBox="0 0 16 16">
+              <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+              <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            </svg>
+        </div>
+        <div class="row align-items-center" style="text-align:center; margin-top:10px;">
+          <h5 class="text-primary"><b>Ionicons</b></h5>
+        </div>
+        <div class="row px-4" style="text-align:center; font-size:15px;">
+          Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+        </div>
+      </div>
+
+      <div class="col-4">
+          <div class="row">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-binoculars" viewBox="0 0 16 16" >
+              <path d="M3 2.5A1.5 1.5 0 0 1 4.5 1h1A1.5 1.5 0 0 1 7 2.5V5h2V2.5A1.5 1.5 0 0 1 10.5 1h1A1.5 1.5 0 0 1 13 2.5v2.382a.5.5 0 0 0 .276.447l.895.447A1.5 1.5 0 0 1 15 7.118V14.5a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 14.5v-3a.5.5 0 0 1 .146-.354l.854-.853V9.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v.793l.854.853A.5.5 0 0 1 7 11.5v3A1.5 1.5 0 0 1 5.5 16h-3A1.5 1.5 0 0 1 1 14.5V7.118a1.5 1.5 0 0 1 .83-1.342l.894-.447A.5.5 0 0 0 3 4.882V2.5zM4.5 2a.5.5 0 0 0-.5.5V3h2v-.5a.5.5 0 0 0-.5-.5h-1zM6 4H4v.882a1.5 1.5 0 0 1-.83 1.342l-.894.447A.5.5 0 0 0 2 7.118V13h4v-1.293l-.854-.853A.5.5 0 0 1 5 10.5v-1A1.5 1.5 0 0 1 6.5 8h3A1.5 1.5 0 0 1 11 9.5v1a.5.5 0 0 1-.146.354l-.854.853V13h4V7.118a.5.5 0 0 0-.276-.447l-.895-.447A1.5 1.5 0 0 1 12 4.882V4h-2v1.5a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V4zm4-1h2v-.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5V3zm4 11h-4v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14zm-8 0H2v.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5V14z"/>
+            </svg>
+          </div>
+
+          <div class="row align-items-center" style="text-align:center; margin-top:10px;">
+            <h5 class="text-primary"><b>Creative Design</b></h5>
+          </div>
+
+          <div class="row px-4" style="text-align:center; font-size:15px;">
+            Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+          </div>
+      </div>
+
+      <div class="col-4">
+        <div class="row">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+              <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+        <div class="row align-items-center" style="text-align:center; margin-top:10px;">
+          <h5 class="text-primary"><b>Photoshop and Sketch</b></h5>
+        </div>
+        <div class="row px-4" style="text-align:center; font-size:15px;">
+          Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+        </div>
+      </div>  
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Tercer contenedor -->
+
+<div class="container-fluid bg-light text-info" id="contenedor3">
+
+  <div class="container pt-3 text-primary">
+    <div class="row pt-5">
+      <div class="col-5"></div>
+      <div class="col-2" style="text-align:center;"><h3>Meet Our Team<hr style="width:40%;margin-left:60px"></h3></div>
+      <div class="col-5"></div>
+    </div>
+  </div>
+
+  <div class="container pb-4">
+    <div class="row">
+      <div class="col-3"></div>
+      <div class="col-6">
+        <div class="row" style="text-align:center;">
+          <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
+        </div>
+      </div>
+      <div class="col-3"></div>  
+    </div>
+  </div>
+
+  <div class="container pt-3 pb-3">
+    <div class="row alto align-items-start">
+
+      <div class="col-2 px-3">
+      </div>
+
+      <div class="col-8 px-3">
+        <div class="row">
+          <div class="col-4">
+            <img class="pb-2" src="https://cdnb.20m.es/sites/112/2019/04/cara6-620x618.jpg" style="width:250px; height:250px;">
+            <p class="text-primary"><b>Joyce Hudson</b><br><h6 class>Founder & Designer</h6></p>
+          </div>
+          <div class="col-4">
+            <img class="pb-2" src="https://i.pinimg.com/736x/c8/e9/72/c8e972106158f5dd52b0b20c6292f089.jpg" style="width:250px; height:250px;">
+            <p class="text-primary"><b>Angela Campbell</b><br><h6>Project Manager</h6></p>
+          </div>
+          <div class="col-4">
+            <img  class="pb-2" src="https://www.contrareplica.mx/uploads/galerias/normal/d51adde6198cd2e5a32ddda82d2ee9b6.jpg" style="width:250px; height:250px;">
+            <p class="text-primary"><b>James Walker</b><br><h6>Developer</h6></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-2 px-3">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Cuarto contenedor -->
+
+<div class="container-fluid bg-primary py-5" id="contenedor4">
+  <div class="container text-white">
+     <div class="row align-items-start pt-3">
+      <div class="col-8">
+        <div class="row align-items-center">
+          <div class="col-2"></div>
+          <div class="col-10">
+            <h1 class="display-1" style="font-size:30px;">Do You Like Wapik? Download it Now</h1>
+            <p style="font-size:13px;">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+          <a href="#" id="botonDescarga" class="btn btn-primary my-2" style="font-size:15px;">DOWNLOAD NOW! - FOREVER FREE</a>
+      </div>
+     </div>
+   </div>
+</div>
+
+<!-- Quinto contenedor -->
+
+<div class="container-fluid text-info py-5" id="contenedor5">
+  <div class="container">
+     <div class="row align-items-start pt-5 pb-5">
+      <div class="col-6">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-4">
+            <div class="row pb-1 text-primary" style="font-size:20px;">WAKIP</div>
+            <div class="row bg-dange pb-1">@: hi@wapik.com</div>
+            <div class="row bg-dange pb-1">p: +62 202 555 0117</div>
+            <div class="row bg-dange" style="font-size:13px; ">a: 610 Overlook Circle Suite 323 Kalamazoo, MI 49009</div>
+          </div>
+          <div class="col-4">
+           <div class="row pb-1 text-primary" style="padding-left:10px;">Company</div>
+            <div class="row bg-dange pb-1"><a class="text-info" href="#" id="botonHome2">Home</a></div>
+            <div class="row bg-dange pb-1"><a class="text-info" href="#" id="botonAbout2">About Us</a></div>
+            <div class="row bg-dange pb-1"><a class="text-info" href="#" id="botonPricing2">Pricing</a></div>
+            <div class="row bg-dange pb-1"><a class="text-info" href="#" id="botonContact2">Contact Us</a></div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-4">           
+            <div class="row pb-1 text-primary" style="padding-left:10px;">Others</div>
+            <div class="row bg-dange pb-1"><a class="text-info" href="#" id="botonHS">Help & Support</a></div>
+            <div class="row bg-dange pb-1"><a class="text-info" href="#" id="botonPP">Privacy Policy</a></div>
+            <div class="row bg-dange pb-1"><a class="text-info" href="#" id="botonTerms">Terms</a></div>
+            <div class="row bg-dange pb-1"><a class="text-info" href="#" id="botonSM">Sitemap</a></div></div>
+          <div class="col-5">
+            <div class="row pb-2 text-primary" style="padding-left:10px;">Newsletter</div>
+            <div class="row bg-dange pb-1">
+              <p>Suscribe to our newsletter and get all the cool news</p>
+            </div>
+            <div>
+              <div class="form-group">
+                  <div class="icon-addon addon-sm">
+                      <input type="text" placeholder="Enter Email" class="form-control" id="email">
+                      <label for="email" class="glyphicon glyphicon-search" rel="tooltip" title="email"></label>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
+      </div>
+     </div>
+   </div>
+   <hr style="width:75%;margin-left:190px">
+  <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-2"></div>
+            <div class="col-6" style="padding-left:40px;">All rights reserved 2015.</div>
+            <div class="col-4"></div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="row">
+            <div class="col-5"></div>
+            <div class="col-5" style="padding-left:40px;">
+              <div class="row align-items-center">
+                <div class="col-2"></div>
+                <div class="col-2">
+                  <img  class="" src="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-1-1.png" style="width:30px; height:30px;">
+                </div>
+                <div class="col-2">
+                  <img  class="" src="https://lh3.googleusercontent.com/proxy/1oLEH4OoEKMrcMKEPsgAdLCKzTrAr7V17CFQAjkoeK6i4OOs8KrU9JvfR6NKgwM5B8TfVPoBKoplOsRpsb8RQttd4Ud_SoYDBkCNtwpWWWiZ0RIvrFg" style="width:37px; height:37px;">
+                </div>
+                <div class="col-2">
+                  <img  class="" src="https://i.pinimg.com/originals/3b/21/c7/3b21c7efd2ba9c119fb8d361acacc31d.png" style="width:30px; height:30px;">
+                </div>
+                <div class="col-2">
+                  <img  class="" src="https://image.flaticon.com/icons/png/512/174/174857.png" style="width:30px; height:30px;">
+                </div>
+                <div class="col-2">
+                  <img  class="" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="width:30px; height:30px;">
+                </div>
+
+              </div>
+            </div>
+            <div class="col-2"></div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>  
+​
+</body>
+</html>
+​
